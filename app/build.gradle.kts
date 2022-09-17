@@ -78,7 +78,7 @@ dependencies {
     implementation("dev.rikka.rikkax.recyclerview:recyclerview-ktx:1.3.1")
     implementation("io.noties.markwon:core:4.6.2")
 
-    val vLibsu = "0.3-02su"
+    val vLibsu = "0.4"
     implementation("com.github.qiurigao.libsu:core:${vLibsu}")
     implementation("com.github.qiurigao.libsu:service:${vLibsu}")
     implementation("com.github.qiurigao.libsu:nio:${vLibsu}")
