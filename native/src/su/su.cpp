@@ -74,7 +74,7 @@ static void setup_sighandlers(void (*handler)(int)) {
     }
 }
 
-int su_client_main(int argc, char *argv[]) {
+int sb_client_main(int argc, char *argv[]) {
     int c;
     struct option long_opts[] = {
             { "command",                required_argument,  nullptr, 'c' },

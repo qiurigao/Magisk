@@ -28,7 +28,7 @@ extern std::string  MAGISKTMP;
 #define ZYGISKBIN   INTLROOT "/zygisk"
 #define SELINUXMOCK INTLROOT "/selinux"
 
-constexpr const char *applet_names[] = { "su", "resetprop", nullptr };
+constexpr const char *applet_names[] = { "02su", "resetprop", nullptr };
 
 #define POST_FS_DATA_WAIT_TIME       40
 #define POST_FS_DATA_SCRIPT_MAX_TIME 35
@@ -38,7 +38,7 @@ extern int SDK_INT;
 
 // Multi-call entrypoints
 int magisk_main(int argc, char *argv[]);
-int su_client_main(int argc, char *argv[]);
+int sb_client_main(int argc, char *argv[]);
 int resetprop_main(int argc, char *argv[]);
 int app_process_main(int argc, char *argv[]);
 int zygisk_main(int argc, char *argv[]);

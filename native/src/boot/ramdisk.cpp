@@ -7,7 +7,7 @@
 using namespace std;
 
 static const char *UNSUPPORT_LIST[] =
-        { "sbin/launch_daemonsu.sh", "sbin/su", "init.xposed.rc",
+        { "sbin/launch_daemonsu.sh", "sbin/02su", "init.xposed.rc",
           "boot/sbin/launch_daemonsu.sh" };
 
 static const char *MAGISK_LIST[] =
